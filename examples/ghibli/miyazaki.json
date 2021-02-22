@@ -3,6 +3,6 @@
   "type": "director",
   "born": {
     "place": "Bunkyō",
-    "day": "1941-01-05"
+    "day": [1941, 1, 5]
   }
 }

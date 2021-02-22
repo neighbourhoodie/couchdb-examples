@@ -20,8 +20,8 @@ machine, and that it is running in the background.
 1. In the prompt, type: `npm install neighbourhoodie/couchdb-bootstrap` to
    install the `couchdb-bootstrap` tool.
 1. Install the example by typing: `npx couchdb-bootstrap
-   http://admin:password@localhost:5984' .` substituting your CouchDB username
-   and password for `admin` and `password`.
+   http://admin:password@localhost:5984' examples` substituting your CouchDB
+   username and password for `admin` and `password`.
 
 ## Helpful Hints on Windows computers
 
@@ -41,7 +41,7 @@ any inline documents with *double-quotes* (`"`) and to double up any double-
 quotes inside of the string, like this:
 
 ```batch
-curl -X POST -H "Content-Type:application/json" http://admin:password@localhost:5984/ghibli/_find -d '{""selector"":{""type"": ""director""}}'
+curl -X POST -H "Content-Type:application/json" http://admin:password@localhost:5984/ghibli/_find -d "{""selector"":{""type"": ""director""}}"
 ```
 
 ### PowerShell

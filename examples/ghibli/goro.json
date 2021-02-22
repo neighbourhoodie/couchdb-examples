@@ -3,6 +3,6 @@
   "type": "director",
   "born": {
     "place": "Ujiyamada",
-    "day": "1967-01-21"
+    "day": [1967, 1, 21]
   }
 }

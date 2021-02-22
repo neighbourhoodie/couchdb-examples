@@ -5,5 +5,8 @@
   "votes": 618472,
   "rating": 8.6,
   "type": "movie",
-  "director": "miyazaki"
+  "director": "miyazaki",
+  "notable-awards": {
+    "Academy Award for Best Animated Feature": 2003
+  }
 }
