@@ -11,14 +11,12 @@ CouchDB Training offerings.
 These instructions assume you already have a CouchDB installation on your local
 machine, and that it is running in the background.
 
-1. Install [Node.JS](https://nodejs.org/). Any recent version (as of 2021) is
+1. Install [Node.js](https://nodejs.org/). Any recent version (as of 2021) is
    fine.
 1. Obtain a copy of this repository, using `git` or by downloading the zip file
    from GitHub and extracting it.
 1. Open a shell, terminal, or command prompt, and change directories into
    wherever you put a copy of this repo.
-1. In the prompt, type: `npm install neighbourhoodie/couchdb-bootstrap` to
-   install the `couchdb-bootstrap` tool.
 1. Install the example by typing: `npx couchdb-bootstrap
    http://admin:password@localhost:5984' .` substituting your CouchDB username
    and password for `admin` and `password`.
