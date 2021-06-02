@@ -3,6 +3,6 @@
   "type": "director",
   "born": {
     "place": "Hokkaido",
-    "day": "1958-12-31"
+    "day": [1958, 12, 31]
   }
 }

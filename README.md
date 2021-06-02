@@ -18,8 +18,8 @@ machine, and that it is running in the background.
 1. Open a shell, terminal, or command prompt, and change directories into
    wherever you put a copy of this repo.
 1. Install the example by typing: `npx couchdb-bootstrap
-   http://admin:password@localhost:5984' .` substituting your CouchDB username
-   and password for `admin` and `password`.
+   http://admin:password@localhost:5984' examples` substituting your CouchDB
+   username and password for `admin` and `password`.
 
 ## Helpful Hints on Windows computers
 
@@ -39,7 +39,7 @@ any inline documents with *double-quotes* (`"`) and to double up any double-
 quotes inside of the string, like this:
 
 ```batch
-curl -X POST -H "Content-Type:application/json" http://admin:password@localhost:5984/ghibli/_find -d '{""selector"":{""type"": ""director""}}'
+curl -X POST -H "Content-Type:application/json" http://admin:password@localhost:5984/ghibli/_find -d "{""selector"":{""type"": ""director""}}"
 ```
 
 ### PowerShell

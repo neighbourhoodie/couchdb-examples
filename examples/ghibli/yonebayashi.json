@@ -3,6 +3,6 @@
   "type": "director",
   "born": {
     "place": "Nonoichi",
-    "day": "1973-07-10"
+    "day": [1973, 7, 10]
   }
 }

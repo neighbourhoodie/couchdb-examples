@@ -3,6 +3,7 @@
   "type": "director",
   "born": {
     "place": "Ujiyamada",
-    "day": "1935-10-29"
-  }
+    "day": [1935, 10, 29]
+  },
+  "died": true
 }

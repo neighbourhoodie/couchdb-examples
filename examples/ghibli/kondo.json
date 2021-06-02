@@ -3,6 +3,7 @@
   "type": "director",
   "born": {
     "place": "Tachikawa",
-    "day": "1950-03-31"
-  }
+    "day": [1950, 3, 31]
+  },
+  "died": true
 }
