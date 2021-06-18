@@ -1,0 +1,12 @@
+{
+    "_id": "_design/view-example",
+    "_rev": "1-96410ddb7c4e5b7b047533ef0dcc9ec2",
+    "views": {
+    "by-type": {
+      "map": "function (doc) { emit(doc.type) }"
+    },
+    "by-year": {
+      "map": "function (doc) { if(doc.year) { emit(doc.year) }}"
+    }
+  }
+}

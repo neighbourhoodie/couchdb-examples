@@ -1,0 +1,8 @@
+{
+  "_id": "_design/view-example",
+  "views": {
+    "by-type": {
+        "map": "function (doc) { emit(doc.type) }"
+    }
+  }
+}
