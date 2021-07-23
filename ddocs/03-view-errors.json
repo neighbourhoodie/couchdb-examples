@@ -1,0 +1,12 @@
+{
+  "_id": "_design/view-errors",
+  "_rev":"4-4036af13a7323c20d1b5dbed6bd2c4e9",
+  "views": {
+    "no-guard-one-level": {
+      "map": "function (doc) { emit(doc.tpye) }"
+    },
+    "no-guard-two-level": {
+      "map": "function (doc) { if(doc.tpye.name) {emit(doc.tpye.name)} }"
+    }
+  }
+}

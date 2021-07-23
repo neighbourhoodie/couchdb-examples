@@ -1,0 +1,18 @@
+{
+    "_id": "_design/view-example",
+    "_rev": "3-5f6e65d5bddbe181c2ec5788a1d3fbeb",
+    "views": {
+    "by-type": {
+      "map": "function (doc) { emit(doc.type) }"
+    },
+    "by-year": {
+      "map": "function (doc) { if(doc.year) { emit(doc.year) }}"
+    },
+    "director-by-name": {
+      "map": "function (doc) { if(doc.type == 'director') { emit(doc.name) }}"
+    },
+    "director-by-birthday": {
+      "map": "function (doc) { if(doc.type == 'director') { emit(doc.born.day) }}"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "_id": "_design/view-example",
+    "_rev": "6-8dd2bd5ab8e864332e686938ae6e3ae4",
+    "views": {
+    "by-type": {
+      "map": "function (doc) { emit(doc.type) }"
+    },
+    "by-year": {
+      "map": "function (doc) { if(doc.year) { emit(doc.year) }}"
+    },
+    "director-by-name": {
+      "map": "function (doc) { if(doc.type == 'director') { emit(doc.name) }}"
+    },
+    "director-by-birthday": {
+      "map": "function (doc) { if(doc.type == 'director') { emit(doc.born.day) }}"
+    },
+    "director-by-birth-place": {
+      "map": "function (doc) {  if(doc.type == 'director') {    emit(doc.born.place)  }}"
+    },
+    "movies-by-year-with-title-and-rating": {
+      "map": "function (doc) {  if(doc.type == 'movie') {    emit(doc.year, {      title: doc.title,      rating: doc.rating    })  }}"
+    },
+    "movies-by-title-and-directors": {
+      "map": "function (doc) {  if (doc.type == 'movie') {    emit(doc.title, { _id: doc.director })  }}"
+    }
+  }
+}
