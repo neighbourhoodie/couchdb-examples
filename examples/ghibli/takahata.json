@@ -2,7 +2,7 @@
   "name": "Isao Takahata",
   "type": "director",
   "born": {
-    "place": "Ujiyamada",
+    "place": ["Japan", "Mie", "Ujiyamada"],
     "day": [1935, 10, 29]
   },
   "died": true

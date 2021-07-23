@@ -2,7 +2,7 @@
   "name": "Yoshifumi Kondô",
   "type": "director",
   "born": {
-    "place": "Tachikawa",
+    "place": ["Japan", "Tokyo", "Tachikawa"],
     "day": [1950, 3, 31]
   },
   "died": true

@@ -2,7 +2,7 @@
   "name": "Hayao Miyazaki",
   "type": "director",
   "born": {
-    "place": "Bunkyō",
+    "place": ["Japan", "Tokyo", "Bunkyō"],
     "day": [1941, 1, 5]
   }
 }

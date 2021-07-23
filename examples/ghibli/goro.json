@@ -2,7 +2,7 @@
   "name": "Gorô Miyazaki",
   "type": "director",
   "born": {
-    "place": "Ujiyamada",
+    "place": ["Japan", "Tokyo", "Tokyo"],
     "day": [1967, 1, 21]
   }
 }

@@ -2,7 +2,7 @@
   "name": "Hiromasa Yonebayashi",
   "type": "director",
   "born": {
-    "place": "Nonoichi",
+    "place": ["Japan", "Ishikawa", "Nonoichi"],
     "day": [1973, 7, 10]
   }
 }

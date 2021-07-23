@@ -2,7 +2,7 @@
   "name": "Tomomi Mochizuki",
   "type": "director",
   "born": {
-    "place": "Hokkaido",
+    "place": ["Japan", "Hokkaido"],
     "day": [1958, 12, 31]
   }
 }

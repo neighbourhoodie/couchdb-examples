@@ -5,5 +5,6 @@
   "votes": 76376,
   "rating": 7.6,
   "type": "movie",
-  "director": "yonebayashi"
+  "director": "yonebayashi",
+  "tags": ["Animation", "Adventure", "Family"]
 }
