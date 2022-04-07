@@ -17,9 +17,8 @@ machine, and that it is running in the background.
    from GitHub and extracting it.
 1. Open a shell, terminal, or command prompt, and change directories into
    wherever you put a copy of this repo.
-1. Install the example by typing: `npx couchdb-bootstrap
-   http://admin:password@localhost:5984' examples` substituting your CouchDB
-   username and password for `admin` and `password`.
+1. Install the example by typing: `npx couchdb-bootstrap http://admin:password@localhost:5984 examples`
+   substituting your CouchDB username and password for `admin` and `password`.
 
 ## Helpful Hints on Windows computers
 
